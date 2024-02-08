@@ -1,0 +1,33 @@
+.navbar {
+  background: #085e7d !important;
+}
+
+.card img {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  width: 100%;
+  height: 30vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.card img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.col-lg-4:nth-child(2) .card-img-top {
+  -o-object-position: right;
+  object-position: right;
+}
+
+@media (max-width: 768px) {
+  #map {
+    padding: 20px 0;
+    height: 80vh;
+  }
+}
